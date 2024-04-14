@@ -42,13 +42,13 @@ mainEl.style.display = 'block';
 
 anime({
     targets: mainEl,
-    duration: 3000,
+    duration: 1500,
     direction: 'normal',
     easing: 'linear',
     translateY: ['40vh', '0'],
     scale: {
         value: [2, 1],
-        duration: 3000,
-        easing: 'easeInOutSine'
+        duration: 1500,
+        easing: 'linear'
     }
 });
