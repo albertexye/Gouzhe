@@ -1,3 +1,59 @@
 body {
     text-align: center;
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    user-select: none;
+}
+
+main {
+    margin: auto;
+    padding: max(2vw, 2vh);
+    width: 80vw;
+    display: none;
+}
+
+ul.ranking {
+    list-style-type: none;
+}
+
+li.ranking {
+    width: 50vw;
+    margin: auto;
+    cursor: pointer;
+    padding: max(2vw, 2vh);
+    border-radius: max(3vw, 3vh);
+}
+
+img.ranking {
+    width: max(5vw, 5vh);
+    height: max(5vw, 5vh);
+    line-height: max(5vw, 5vh);
+    border-radius: 50%;
+
+    float: right;
+}
+
+.ranking-number {
+    color: gold;
+    font-size: max(5vw, 5vh);
+    float: left;
+}
+
+.ranking-name {
+    color: white;
+    font-size: max(5vw, 5vh);
+}
+
+.dark {
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+}
+
+.hover {
+    transition: background-color 0.25s ease-in-out;
+}
+
+.hover:hover {
+    background-color: gray;
 }
