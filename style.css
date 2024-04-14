@@ -6,6 +6,14 @@ body {
     user-select: none;
 }
 
+#container {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 17px;
+}
+
 main {
     margin: auto;
     padding: max(2vw, 2vh);

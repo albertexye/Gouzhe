@@ -2,5 +2,17 @@
   {
     "name": "Jerry",
     "photo": "Jerry.png"
+  },
+  {
+    "name": "James",
+    "photo": "James.png"
+  },
+  {
+    "name": "Luke",
+    "photo": "Dog.png"
+  },
+  {
+    "name": "Ivan",
+    "photo": "Dog.png"
   }
 ]
