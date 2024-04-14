@@ -26,9 +26,11 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', eve
 
 for (const [i, gouzhe] of gouzheList.entries()) {
     const innerHTML = `
-<span class="ranking-number">${i+1}</span>
-<span class="ranking-name">${gouzhe.name}</span>
-<img class="ranking" src="data/photos/${gouzhe.photo}" alt="Gouzhe Image" />
+<a class="ranking" href="gouzhe/${gouzhe.name}.html">
+    <span class="ranking-number">${i+1}</span>
+    <span class="ranking-name">${gouzhe.name}</span>
+    <img class="ranking" src="data/photos/${gouzhe.photo}" alt="Gouzhe Image" />
+</a>
 `;
     const liEl = document.createElement("li");
     liEl.classList.add('ranking', 'hover');

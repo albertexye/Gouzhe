@@ -1,8 +1,6 @@
 [
   {
     "name": "Jerry",
-    "photo": "Jerry.png",
-    "desc_cn": "Jerry是最后的狗者！",
-    "desc_en": "Jerry is the final Gouzhe! "
+    "photo": "Jerry.png"
   }
 ]
