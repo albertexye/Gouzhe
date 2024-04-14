@@ -26,7 +26,7 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', eve
 
 for (const [i, gouzhe] of gouzheList.entries()) {
     const innerHTML = `
-<a class="ranking" href="gouzhe/${gouzhe.name}.html">
+<a class="ranking" href="gouzhe/${gouzhe.name}/${gouzhe.name}.html">
     <span class="ranking-number">${i+1}</span>
     <span class="ranking-name">${gouzhe.name}</span>
     <img class="ranking" src="data/photos/${gouzhe.photo}" alt="Gouzhe Image" />
